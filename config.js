@@ -14,7 +14,7 @@ const config = {
     // Can be whatever you want it to be but keep in mind that it might result in unpredictable responses.
     // Anything we put here will eat into our max available tokens so keep it brief. Anything above ~12000 characters will get cut off by Slack.
     PING_MESSAGE_PREFIX: ".\n\n�A",
-    PING_MESSAGE: "r Continue conversation as A while following the <instructions> and avoiding the information listed in <ban>. Reply only once.",
+    PING_MESSAGE: "r Continue conversation as A following the given <RULES>. Reply only once.",
 
     // if edit_msg_with_ping is true:
     PING_PREFIX: "�A",
